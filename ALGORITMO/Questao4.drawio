@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T21:38:02.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="gyaHOicmzWTg6Xaa1RY8" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T21:38:51.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="SLKRK7-XhFOJCYcFBhiu" version="23.1.6" type="github">
   <diagram name="Página-1" id="bynPcITnuPDcgUBWQxV-">
     <mxGraphModel dx="880" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
           <mxGeometry x="144" y="635" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ttpy7Zn74e-UWXRv_ulR-24" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="494" y="934" width="100" height="100" as="geometry" />
+          <mxGeometry x="494" y="990" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ttpy7Zn74e-UWXRv_ulR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ttpy7Zn74e-UWXRv_ulR-14" target="ttpy7Zn74e-UWXRv_ulR-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -78,28 +78,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ttpy7Zn74e-UWXRv_ulR-26" value="Se conta_divisores &amp;gt; 2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="499" y="961" width="90" height="46" as="geometry" />
+          <mxGeometry x="499" y="1017" width="90" height="46" as="geometry" />
         </mxCell>
         <mxCell id="ttpy7Zn74e-UWXRv_ulR-28" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="684" y="954" width="120" height="60" as="geometry" />
+          <mxGeometry x="684" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ttpy7Zn74e-UWXRv_ulR-30" value="Numero nao primo" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="714" y="975" width="60" height="24" as="geometry" />
+          <mxGeometry x="714" y="1031" width="60" height="24" as="geometry" />
         </mxCell>
         <mxCell id="ttpy7Zn74e-UWXRv_ulR-31" value="Verdadeiro" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="604" y="954" width="60" height="30" as="geometry" />
+          <mxGeometry x="604" y="1010" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ttpy7Zn74e-UWXRv_ulR-32" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="276" y="954" width="120" height="60" as="geometry" />
+          <mxGeometry x="276" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ttpy7Zn74e-UWXRv_ulR-34" value="Numero primo" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="308" y="969" width="60" height="30" as="geometry" />
+          <mxGeometry x="308" y="1025" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ttpy7Zn74e-UWXRv_ulR-35" value="Falso" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="414" y="954" width="60" height="30" as="geometry" />
+          <mxGeometry x="414" y="1010" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ILAq8TSaKFccnGPaeyfJ-4" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;b&gt;&lt;u&gt;Laço de repetição&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;- Iniciando em 1&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;- Identando +1&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;- Finalizando em n&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="439" y="647.5" width="131" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ILAq8TSaKFccnGPaeyfJ-5" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;FIm do laço&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="484" y="920" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
