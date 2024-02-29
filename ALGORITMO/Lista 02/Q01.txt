@@ -1,0 +1,15 @@
+1. Considere o conjunto de números naturais. Uma das formas de determinar se um número natural n é primo é contar quantos divisores tem n no conjunto. Caso n possua exatamente 2 divisores, então ele é primo. Para todos os outros casos ele não é primo. 
+A função a seguir, em C++ recebe um número natural n (cosidere 0 ≤ n ≤ 1012) e mostra se n é primo a partir da contagem dos seus divisores. 
+
+bool prime(long long n){ 
+int qty_divs = 0; —-----------------2 : atribuindo e alocando
+for (long long d=1 ; d<=n ; ++d) —--2n : validando por 2*n
+if (n%d==0) —-----------------------2(n-1) : se verdadeiro entra na condição n vezes se todos os valores forem 
+qty_divs = qty_divs + 1; —----------2(n-1)
+if (qty_divs==2) —------------------2 : validando a variavel com a constante
+return true; —----------------------1 : Um retorno
+else 
+return false;-----------------------1 : Um retorno
+} 
+Escreva a equação de tempo de execução da função primo. 
+	2 + 2n + 2(n-1) + 2(n-1) + 2 + 1 + 1
