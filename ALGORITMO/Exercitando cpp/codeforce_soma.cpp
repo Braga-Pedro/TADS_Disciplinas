@@ -8,5 +8,5 @@ int main() {
   // soma dos parametros
   soma = parametro1 + parametro2;
   // saida
-  std::cout << "Hello World! " << soma << std::endl;
+  std::cout << soma << std::endl;
 }
