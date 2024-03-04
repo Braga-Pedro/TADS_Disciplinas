@@ -19,6 +19,13 @@ saída
 #include <iostream>
 
 int main() {
-    
+  float maxNota, notaAluno;
+
+  std::cout << "Insira a nota do aluno: "<< std::endl;
+  
+  std::cin >> maxNota 
+           >> notaAluno;
+  
+  std::cout << "Nota do aluno: " << notaAluno << maxNota << std::endl;
 
 }
