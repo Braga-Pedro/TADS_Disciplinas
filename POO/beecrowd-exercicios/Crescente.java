@@ -18,28 +18,38 @@ Exemplo de Entrada	Exemplo de Saída
 21
 -14
 */
-import java.utils.scanner;
+import java.util.Scanner;
 
 public class Crescente{
   public static void main(String[] args){
+       
+    int maiorNumero = 0;
+    int menorNumero = 0;
+    int entrada     = 0;
+    int entrada1    = 0;
+    int entrada2    = 0;
+    int entrada3    = 0;
     
-    // ler 3 valores inteiro dentro do laço até 3 valores. Para quando a entrada for maior que maiorNumero, maioNumero recebe entrada, Ter também menor numero, para quando a entra for menor que menorNumero, menorNumero recebe a entrada.
+    Scanner scanner = new Scanner(System.in);
     
-    int maiorNumero, menorNumero, entrada, entrada1, entrada2, entrada3 = 0;
-    
-    for (int i = 0; i < 3; i++)) {
-      int entrada = scanner.nextInt();  
+    for (int i = 0; i < 3; i++) {
+      
+      System.out.println("Insira os valores: ");
+      entrada = scanner.nextInt();  
       // ordem crescente
       if (entrada > maiorNumero) maiorNumero = entrada;
       if (entrada < menorNumero) menorNumero = entrada;
       // ordem das entradasd inseridas
-      if (i = 0) entrada1 = entrada;
-      if (i = 1) entrada2 = entrada;
-      if (i = 2) entrada3 = entrada;
+      if (i == 0) entrada1 = entrada;
+      if (i == 1) entrada2 = entrada;
+      if (i == 2) entrada3 = entrada;
     }    
+    System.out.println("--------SAÍDA--------");
     // menor pro maior
-    System.out.println(menorNumero, "/n", entrada, "/n", maiorNumero, "/n", " ", "/n");
+    System.out.println(menorNumero + "\n" + entrada + "\n" + maiorNumero + "\n");
     // ordem de entrada
-    System.out.println(entrada1, "/n", entrada2, "/n", entrada3);
+    System.out.println(entrada1 + "\n" + entrada2 + "\n" + entrada3);
+    
+    scanner.close();
   }
 }
