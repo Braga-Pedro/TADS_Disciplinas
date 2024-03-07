@@ -30,8 +30,14 @@ int main() {
 
   // verificando se a entrada está no range permitido
   if (maxNota and notaAluno > 0 && maxNota and notaAluno < 100000) {
+    
     // calculando a nota normalizada
     int notaNormalizada = (notaAluno / maxNota) * 100;
+
+    // validando para não ser maior que 100
+    if (notaNormalizada > 100) notaNormalizada = 100;
+    
+    // imprimindo a nota normalizada
     std::cout << notaNormalizada;
   } else {
     std::cout << "Nota do aluno fora do padrão" << std::endl;
