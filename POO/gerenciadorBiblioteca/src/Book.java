@@ -25,13 +25,13 @@ public class Book {
      */
 
     public void borrowBook() {
-        int borrowAvaibleCopies = getAvaibleCopies() - 1;
+        int borrowAvaibleCopies = this.getAvaibleCopies() - 1;
         setAvaibleCopies(borrowAvaibleCopies);
     }
 
     public void returnBook() {
-        int borrowAvaibleCopies = getAvaibleCopies() + 1;
-        setAvaibleCopies(borrowAvaibleCopies);
+        int borrowAvaibleCopies = this.getAvaibleCopies() + 1;
+        this.setAvaibleCopies(borrowAvaibleCopies);
     }
 
     public String getTitle() {
