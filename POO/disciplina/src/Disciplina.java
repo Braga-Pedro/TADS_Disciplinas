@@ -73,4 +73,13 @@ public class Disciplina {
     public void setNota_prova_final(double nota_prova_final) {
         this.nota_prova_final = nota_prova_final;
     }
+
+    public String toString() {
+        return "Nome: " + getNome() + "\n" +
+               "1 Bimestre: " + getNota1b() + "\n" +
+               "2 Bimestre: " + getNota2b() + "\n" +
+               "Prova Final: " + getNota_prova_final() + "\n" +
+               "Media Parcial: " + mediaParcial(getNota1b(), getNota2b()) + "\n" +
+               "Media Final: " + mediaFinal(getNota1b(), getNota2b(), getNota_prova_final()) + "\n";
+    }
 }
