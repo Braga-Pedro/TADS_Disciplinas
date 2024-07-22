@@ -1,0 +1,3 @@
+# Lista ligada - CPP
+
+Cada valor de uma lista ligada ao ser instanciado tem um valor “8” e um ponteiro apontando para o próximo valor de memória que está o outro valor da lista “265418738”, sabendo que o último valor aponta para nulo e o primeiro aponta para o próximo valor. Sempre varrer a lista parando quando o ponteiro apontar para nulo “0”. Lista ligada diferente de um vetor é muito mais eficiente, pois não é necessário mudar todo um valor alocado na memória como é um vetor, para alterar qualquer coisa é só mudar o valor que irei inserir ou apagar. Sendo em notação big-oh, lista ligada é O(1) e um vetor para qualquer operação é O(n).
